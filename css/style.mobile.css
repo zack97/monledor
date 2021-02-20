@@ -1,0 +1,130 @@
+@media (max-width: 500px) {
+  body {
+    height: 100vh;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header {
+    width: 100%;
+  }
+  .header-content {
+    flex: none;
+    display: block;
+  }
+  .header ul li a {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    font-size: 3rem;
+    padding: 4rem;
+  }
+
+  .header-icon h2 a {
+    font-size: 7rem;
+  }
+  .header-icon h2 i {
+    font-size: 5rem;
+  }
+
+  .section1 ul {
+    max-width: 1000px;
+  }
+  .section1 ul li {
+    text-align: center;
+  }
+  .photo-france {
+    height: 1000px;
+  }
+  .section1 ul {
+    max-width: 1000px;
+  }
+  .section1 ul li {
+    max-width: 100%;
+    padding-right: 22rem;
+  }
+
+  .section2 ul {
+    flex-flow: column;
+  }
+  .section2 h2 {
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .section2 li p {
+    font-size: 3rem;
+  }
+  .section3 ul li {
+    flex-flow: column-reverse;
+  }
+  .team {
+    width: 100%;
+    height: 800px;
+  }
+  .section3 p {
+    padding: 5px;
+    margin: 5rem;
+    font-size: 3rem;
+  }
+
+  .section4 {
+    margin: 3rem;
+  }
+  .section4a ul li {
+    flex-flow: column;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .section4a img {
+    margin-top: 1rem;
+    width: 10rem;
+  }
+  .section4b ul li {
+    flex-flow: column-reverse;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .section4b img {
+    margin-top: 1rem;
+    width: 10rem;
+  }
+  .section4c ul li {
+    flex-flow: column;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .section4c img {
+    margin-top: 1rem;
+    width: 10rem;
+  }
+  .p {
+    font-size: 3rem;
+    margin: 10rem 0 3rem 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  .section5 {
+    font-size: 3rem;
+    margin-top: 20rem;
+  }
+  .section-contact {
+    max-width: 100%;
+    text-align: center;
+  }
+  .section-contact input {
+    font-size: 4rem;
+    padding: 3rem;
+  }
+  .section-contact button {
+    font-size: 4rem;
+    border-radius: 90px;
+    padding: 3rem;
+  }
+  footer {
+    font-size: 3rem;
+  }
+  footer p {
+  }
+}
